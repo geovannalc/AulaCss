@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    border-top: 1px solid #FFF0F5;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+footer section span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer section span a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+footer section span:first-child{
+    color: white;
+}

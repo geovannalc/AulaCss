@@ -1,0 +1,62 @@
+main{
+    text-align: center;
+}
+
+main .contact-form > div {
+    margin: 15px 0px;
+}
+
+main .contact-form > div label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main .contact-form input {
+    width: 100%;
+    padding: 5px 15px;
+    outline-color: #8B008B;
+}
+
+main .contact-form > div input[type= "submit"],
+main .contact-form > div input[type= "reset"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+main .contact-form > div input[type= "submit"]{
+    background-color: #FFE4C4;
+    padding: 10PX;
+}
+
+main .contact-form > div input[type= "reset"]{
+    background-color: #FFE4C4;
+    padding: 10PX;
+}
+
+@media screen and (min-width: 992px) {
+    main .contact-form {
+        width: 50%;
+        border: 3px solid #8B008B;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 20px auto;
+    }
+
+    main .contact-form input {
+        width: 90%;
+        padding: 5px 15px;
+    }
+    
+    main .contact-form > div input[type= "submit"],
+    main .contact-form > div input[type= "reset"] {
+        width: auto;
+        padding: 10px;
+    }
+    main .contact-form > div input[type= "submit"]{
+            margin-right: 20px;
+    }    
+
+}

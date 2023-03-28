@@ -1,0 +1,19 @@
+main{
+    text-align: center;
+}
+
+#fotoeu {
+    border-radius: 400px;
+    width: 50%;
+    border: 5px solid #8B008B;
+  }
+
+main section article p strong{
+color: #8B008B;
+}
+
+@media screen and (min-width: 992px) {
+    #fotoeu { 
+        width: 30%;
+    }
+  }
